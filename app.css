@@ -1,0 +1,49 @@
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:5%;
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: #fcd5ce;
+    
+}
+
+
+body {
+    background-color: #005f73;
+
+    margin: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    max-width: 10%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: #bb3e03;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 40%;
+    height: 30%;
+    
+    
+  }
+  
+  .draggable {
+    text-align: center;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    cursor: move;
+    width: 15%;
+    margin:0;
+    margin-bottom: 1%;
+  }
+  
+  .draggable.dragging {
+    opacity: .5;
+  }
